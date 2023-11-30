@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "530279597477",
+    "project_id": "pdf-genie",
+    "storage_bucket": "pdf-genie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530279597477:android:79f8ba706ab93e468c144c",
+        "android_client_info": {
+          "package_name": "com.example.pdf_genie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxoKc3Dp4ESUvGpksnv1HSAfF0u_7oLVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--on below line we are creating
+        a text for heading of our app-->
+    <TextView
+        android:id="@+id/idTVExtracter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Text Extracter from PDF"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!--on below line we are creating a scroll view for our text-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/idBtnExtract"
+        android:layout_below="@id/idTVExtracter">
+
+        <!--text view for displaying our extracted text-->
+        <TextView
+            android:id="@+id/idTVPDF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+
+    <!--button for starting extraction process-->
+    <Button
+        android:id="@+id/idBtnExtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Extract Text from PDF"
+        android:textAllCaps="false" />
+
+</RelativeLayout>
