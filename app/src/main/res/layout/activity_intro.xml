@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -15,9 +15,8 @@
         android:textColor="#FFF"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="290dp" />
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp" />
 
 
     <TextView
@@ -28,9 +27,8 @@
         android:text="AI ASSISTANT IN YOUR POCKET"
         android:textSize="16sp"
         android:textColor="@color/white"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="465dp" />
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="90dp"/>
 
 
     <TextView
@@ -43,21 +41,17 @@
         android:text="Powered by llama-2"
         android:textColor="#FFFFFF"
         android:textSize="25sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="499dp" />
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="90dp"/>
 
     <Button
         android:id="@+id/continue_button"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:gravity="center"
         android:backgroundTint="#183D3D"
         android:text="Continue"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="655dp" />
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="110dp" />
 
     <TextView
         android:id="@+id/terms_of_service"
@@ -66,9 +60,8 @@
         android:layout_below="@id/continue_button"
         android:text="By proceeding, you accept our Terms of Use and Privacy Policy"
         android:textColor="#9E9E9E"
-        android:textSize="14sp"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="705dp"
-        tools:ignore="MissingConstraints" />
+        android:textSize="13sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

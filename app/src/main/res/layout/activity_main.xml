@@ -48,6 +48,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
+        android:backgroundTint="#183D3D"
         android:text="Extract Text from PDF"
         android:textAllCaps="false" />
 
